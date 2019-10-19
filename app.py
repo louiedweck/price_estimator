@@ -1,5 +1,9 @@
+import os
+
 from flask import Flask
-from random import randint
+from dotenv import load_dotenv
+
+load_dotenv()
 
 app = Flask(__name__)
 
